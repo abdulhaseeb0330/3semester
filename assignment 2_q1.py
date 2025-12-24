@@ -1,7 +1,7 @@
 products = {
-    "Electronics": {"Laptop": 1200, "Phone": 800},
-    "Clothes": {"Shirt": 50, "Shoes": 100},
-    "Grocery": {"Rice": 20, "Milk": 10}
+    "Electronics": {"Laptop": 120000, "Phone": 336155},
+    "Clothes": {"pent": 800, "colar": 50},
+    "Grocery": {"cherry": 2000, "grain": 1000}
 }
 max_price = 0
 p_name = ""
@@ -11,6 +11,7 @@ for category_items in products.values():
         if price > max_price:
             max_price = price
             p_name = name
+
 
 
 print(p_name+" ", max_price)
