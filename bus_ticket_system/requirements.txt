@@ -1,0 +1,26 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.log
+purchases.json
+.DS_Store
+venv/
+.env
+
+# README.md template
+# Bus Ticket Purchase System
+
+## Project Overview
+A Python-based system for purchasing bus tickets...
+
+## Features
+1. Load ticket data from CSV
+2. Browse categories and top-ups
+3. Make purchases
+4. Save purchase history
+
+## Installation
+```bash
+git clone [your-repository]
+cd bus_ticket_system
+python main.py
